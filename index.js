@@ -73,7 +73,6 @@ getfromSessionStorage();
 
 function switchTab(newTab) {
 
-    console.log("shiv");
     if (newTab != oldTab) {
         oldTab.classList.remove("current-tab");
         oldTab = newTab;

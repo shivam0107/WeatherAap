@@ -120,7 +120,8 @@ h1{
     display: none;
 }
 
-.user-info-container .active{
+
+.user-info-container.active{
     display: flex;
 }
 
@@ -214,7 +215,7 @@ h1{
 
 }
 
-.form-container .active{
+.form-container.active{
     display: flex;
 }
 .form-container input{
